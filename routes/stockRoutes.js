@@ -5,7 +5,7 @@ const Stock = require("../models/Stock");
 
 // Fetch stock price from Yahoo Finance
 router.get('/stock/:symbol', async (req, res) => {
-  const { symbol } = req.params;
+  const { symbol } = req.params; //extracts symbol parameter from request's URL
 
   try {
     const stockData = await yahooFinance.quote(symbol); // Fetch stock data

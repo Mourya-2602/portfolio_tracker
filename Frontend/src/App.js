@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
 import StockForm from './components/StockForm';
 import StockList from './components/StockList';
+// import './App.css'; // Import the CSS file
 function App() {
   return (
     <Router>

@@ -138,7 +138,7 @@ function Dashboard() {
           </p>
         </div>
 
-        <div className="col-md-6">
+        <div className="col-md-3">
           <h3>Portfolio Distribution</h3>
           <Pie data={chartData} />
         </div>

@@ -1,3 +1,4 @@
+//defines functions which handles http requests
 exports.getStocks = (req, res) => {
     res.status(200).json({ message: "Get all stocks" });
 };
